@@ -5,6 +5,8 @@ import { salesData } from "./lib/salesData";
 import DashboardLayout from "./components/templates/DashboardLayout";
 import YearFilter from "./components/molecules/YearFilter";
 import SalesChart from "./components/organisms/SalesChart";
+import "./globals.css";
+
 
 
 export default function DashboardPage() {
