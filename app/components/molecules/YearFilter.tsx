@@ -16,13 +16,13 @@ export default function YearFilter({
   return (
     <div className="flex gap-4 mb-6">
       <Input
-        type="number"
+        type='"number" | "button" '
         value={year}
         onChange={(e) => setYear(Number(e.target.value))}
         placeholder="Year"
       />
       <Input
-        type="number"
+        type='"number" | "button" '
         value={threshold}
         onChange={(e) => setThreshold(Number(e.target.value))}
         placeholder="Sales Threshold"
